@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 5rem;   
+}
+
+p{
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-left: 10rem;
+}
+
+.main-content{
+    max-width: 1200rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section{
+    min-height: 100vh;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid .col-a{
+    width: 40rem;
+    height: 35rem;
+    background: var(--primary-color);
+}
+
+.grid .col-b{
+    width: 40rem;
+    height: 35rem;
+    background: var(--second-color);
+}
+
+.h2{
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.bet-content{
+    max-width: 100rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 50vh;
+}
+
+.grid-two{
+    margin-top: -16rem;
+    max-width:100rem;
+    display: block;
+    width: 20rem;
+    height: 20rem; 
+    margin-left: 2rem;
+}
+
+img{
+    width: 15rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+   
+}
+
+.foto-da-mãe{
+    margin-top: 2rem;
+    border: 1px solid black;
+    width: 15rem;
+    height: 15rem;    
+    position: absolute;
+    left: 3rem;
+    z-index: 1;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.foto-do-pai{
+    border: 1px solid black;
+    width: 15rem;
+    height: 15rem; 
+    position: absolute;
+    left: 16rem;
+    bottom: -50rem;
+    z-index: 0;
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin-top: 50rem;
+}
+
+.texto-da-foto{
+    font-size: 1.2rem;
+    max-width: 100rem;
+    display: block;
+    margin-left: 50rem;
+  
+}
+
+.aposta-1{
+    font-size: 1.5rem;
+    margin-left: 7.5rem;
+    color: var(--white-color);
+}
+
+form .input{
+    font-size: 1rem;
+    margin-left: 10rem;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 1rem;
+}
+
+.nome{
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    color: var(--white-color);
+}
+
+.valor{
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    color: var(--white-color);
+}
+
+button{
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    height: 2rem;
+    border-radius: 0.2rem 0.2rem;
+    bottom: 5rem;
+    border: 0.2rem solid var(--light-gray-color);
+    color: var(--third-color);
+    cursor: pointer;
+    transition: all 300ms ease-in-out;  
+}
+
+.button :hover{
+    border: 0.2rem solid var(--light-gray-color);
+    background: none;
+    color: var(--third-color);
+}
+
+footer{
+    background: rgb(185, 171, 171);
+    margin-top: 15rem;
+    height: 5rem;
+}
+
+.img-jpeg{
+    width: 15rem;
+    height: 15rem;
+}
+
+.img-jpeg{
+    margin-top: 0rem;
+    width: 15rem;
+    height: 15rem;    
+    position: absolute;
+    left: -10rem;
+    z-index: 1;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
+     

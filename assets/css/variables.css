@@ -1,0 +1,9 @@
+:root{
+    --primary-color: blue;
+    --second-color: pink;
+    --third-color: green;
+    --white-color: white;
+    --black-color: black;
+    --light-gray-color: #EEEEEE;
+    --gap: 2rem;
+}
