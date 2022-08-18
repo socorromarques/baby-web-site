@@ -121,6 +121,7 @@ img{
     font-size: 1.5rem;
     margin-left: 7.5rem;
     color: var(--white-color);
+    background: red;
 }
 
 form .input{
