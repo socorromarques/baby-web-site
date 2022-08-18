@@ -38,9 +38,6 @@ p{
     padding: var(--gap);
 }
 
-.section{
-    min-height: 100vh;
-}
 
 
 .grid{
@@ -113,11 +110,10 @@ img{
     margin-top: 50rem;
 }
 
-.texto-da-foto{
+.texto{
     font-size: 1.2rem;
-    max-width: 100rem;
     display: block;
-    margin-left: 50rem;
+    margin-left: 22rem;
   
 }
 
